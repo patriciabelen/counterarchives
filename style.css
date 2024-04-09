@@ -5,7 +5,7 @@
     --serif: MariaClara, serif;
     --sans: PangeaAfrikanText-Light, sans-serif;
     --sans-italic: PangeaAfrikanText-LightItalic, sans-serif;
-    --hilight: rgb(241, 255, 82);
+    --hilight: rgb(255, 220, 82);
   }
 @font-face {
     font-family: MariaClara;
@@ -66,7 +66,7 @@ h1 {
 }
 h2 {
     font-family: var(--serif);
-    font-size: 2.2em;
+    font-size: 2.1em;
     color: var(--text-color-dark);
     line-height: 1.3;
     font-weight: normal;
@@ -156,6 +156,12 @@ a:hover {
     width: 100%;
     height: auto;
     margin: 2em auto;
+}
+.case p {
+    font-family: var(--sans);
+    font-size: 1em;
+    color: var(--text-color-dark);
+    line-height: 1.3;
 }
 
 /* --------------------------------------- CURATION */
