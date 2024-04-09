@@ -210,7 +210,7 @@ width: 100%;
 }
 .country-image p {
 font-family: var(--sans);
-font-size: 1em;
+font-size: 0.9em;
 }
 p.nypl-title {
     font-family: var(--serif);
