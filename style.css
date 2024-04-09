@@ -5,7 +5,7 @@
     --serif: MariaClara, serif;
     --sans: PangeaAfrikanText-Light, sans-serif;
     --sans-italic: PangeaAfrikanText-LightItalic, sans-serif;
-    --hilight: rgb(255, 220, 82);
+    --hilight: rgb(255, 201, 75);
   }
 @font-face {
     font-family: MariaClara;
@@ -51,7 +51,7 @@ header h1 {
     padding: 5px;
 }
 header a {
-    color: var(--text-color-light);
+    color: var(--hilight);
     
 }
 header h1 span {
