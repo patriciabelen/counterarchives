@@ -1,7 +1,6 @@
 :root {
-    --text-color-dark: rgb(113, 112, 84);
+    --text-color-dark: rgb(153, 151, 114);
     --text-color-light: rgb(166, 164, 128);
-    --text-color-mid: rgb(120, 118, 93);
     --serif: MariaClara, serif;
     --sans: PangeaAfrikanText-Light, sans-serif;
     --sans-italic: PangeaAfrikanText-LightItalic, sans-serif;
