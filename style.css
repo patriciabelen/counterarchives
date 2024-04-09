@@ -50,8 +50,10 @@ header h1 {
     padding: 5px;
 }
 header a {
+    color: var(--text-color-light);
+}
+header a:hover {
     color: var(--hilight);
-    
 }
 header h1 span {
     font-size: 1.3em;
@@ -208,23 +210,20 @@ width: 100%;
 }
 .country-image p {
 font-family: var(--sans);
-
-font-size: 1.2em;
+font-size: 1em;
 }
 p.nypl-title {
     font-family: var(--serif);
     font-size: 1.2em;
     color: var(--text-color-light);
 }
-p.nypl-author {
-    font-size: 1em;
-}
 
-.country-image p.nypl-cite {
+p.nypl-cite {
     font-size: 0.7em;
     word-wrap: break-word;
     display:inline-block;
     margin-top: 10px;
+    color: var(--text-color-dark);
 }
 
 
