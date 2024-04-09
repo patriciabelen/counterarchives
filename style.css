@@ -67,7 +67,7 @@ h2 {
     font-family: var(--serif);
     font-size: 2.1em;
     color: var(--text-color-dark);
-    line-height: 1.3;
+    line-height: 1.4;
     font-weight: normal;
 }
 h3{
@@ -211,16 +211,20 @@ font-family: var(--sans);
 
 font-size: 1.2em;
 }
-.country-image p.nypl-title {
+p.nypl-title {
     font-family: var(--serif);
-    font-weight: 600;
+    font-size: 1.2em;
     color: var(--text-color-light);
+}
+p.nypl-author {
+    font-size: 1em;
 }
 
 .country-image p.nypl-cite {
     font-size: 0.7em;
     word-wrap: break-word;
     display:inline-block;
+    margin-top: 10px;
 }
 
 
@@ -302,5 +306,9 @@ height: auto;
     #d-curation .card-group, 
     #d-erasure .card-group {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #home h2 {
+        font-size: 1.8em;
+        line-height: 1.3;
     }
 }
