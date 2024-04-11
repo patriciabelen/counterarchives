@@ -342,7 +342,8 @@ height: auto;
         margin: 100px auto 50px auto;
     }
     nav {
-        top: 96vh;
+        top: auto;
+        bottom:0;
         left: 0;
         flex-direction: row;
         height: 50px;
