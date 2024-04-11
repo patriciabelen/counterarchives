@@ -132,7 +132,7 @@ a:hover {
 .case-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3em;
+    grid-gap: 2em;
 }
 .case {
     background-color: rgb(27, 27, 19);
@@ -309,5 +309,43 @@ height: auto;
     #home h2 {
         font-size: 1.8em;
         line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .case-group {
+        grid-template-columns: 1fr;
+    }
+    #d-magnification .card-group, 
+    #d-curation .card-group, 
+    #d-erasure .card-group {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    #d-magnification .card-group, 
+    #d-curation .card-group, 
+    #d-erasure .card-group {
+        grid-template-columns: 1fr 1fr;
+    }
+    header {
+        left: 5%;
+        top: 0;
+        width: 100%;
+    }
+    header h1 {
+        padding: 20px 0;
+
+    }
+    #title {
+        margin: 100px auto 50px auto;
+    }
+    nav {
+        top: 96vh;
+        left: 0;
+        flex-direction: row;
+        height: 50px;
+        width: 100%;
     }
 }
