@@ -265,7 +265,7 @@ nav {
     background-color:  var(--text-color-light);
 }
 
-.circle-black, .circle-blue, .circle-white {
+.circle-black, .circle-blue, .circle-white, .circle-red, .circle-yellow {
     border-radius: 50%;
 }
 .circle-black {
