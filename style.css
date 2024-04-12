@@ -128,11 +128,25 @@ i {
 }
 .more:hover, .less:hover {
     cursor: pointer;
+    color: var(--text-color-dark);
 }
 .moretext {
     display: none;
 }
-
+#about h2 {
+    font-size: 1.8em;
+}
+#about h2 a, .statement a {
+    color: var(--hilight);
+}
+#about h2 a:hover, .statement a:hover {
+    color: var(--text-color-dark);
+}
+.statement {
+    margin: 10% auto 2em auto;
+    padding: 2em 0;
+    border-top: rgb(71, 69, 46) 1px solid;
+}
 
 /* --------------------------------------- HOME */
 #home .card-group {
@@ -364,9 +378,6 @@ width: 50%;
 .ftitle {
     font-size: 1.2em;
     margin-bottom: 10px;
-}
-.fnav li {
-
 }
 
 /* --------------------------------------- MEDIA QUERIES */
