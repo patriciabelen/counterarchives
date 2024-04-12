@@ -277,6 +277,13 @@ nav {
 .circle-white {
     background-color: white;
 }
+.circle-red {
+    background-color: red;
+}
+.circle-yellow {
+    background-color: yellow;
+}
+
 
 .col {
     display: flex;
