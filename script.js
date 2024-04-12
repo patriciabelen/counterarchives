@@ -39,7 +39,7 @@ $(document).ready(function(){
         $(".two").siblings().hide();
         $(this).addClass('active');
         $(this).siblings().removeClass('active');
-      });
+      }); 
 
       $(".circle-black").click(function(){
         $('body').css({'background-color': 'black'}); 
