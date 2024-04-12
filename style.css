@@ -134,8 +134,10 @@ i {
     display: none;
 }
 #about h2 {
-    font-size: 1.8em;
+    font-size: 1.7em;
     line-height: 1.4;
+    margin-bottom: 1em;
+    color: var(--text-color-dark);
 }
 #about h2 a, .statement a {
     color: var(--hilight);
@@ -147,6 +149,17 @@ i {
     margin: 10% auto 2em auto;
     padding: 2em 0;
     border-top: rgb(71, 69, 46) 1px solid;
+}
+.about-bullets ul {
+    
+}
+.about-bullets li {
+    font-size: 1.7em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: var(--text-color-dark);
+    font-family: var(--serif);
+    margin: 0 3em 1em 3em;
 }
 
 /* --------------------------------------- HOME */
