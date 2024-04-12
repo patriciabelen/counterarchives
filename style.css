@@ -194,6 +194,10 @@ width: 100%;
     cursor:pointer;
 }
 
+.moretext {
+    display: none;
+}
+
 /* --------------------------------------- CURATION : COUNTRY */
 #d-country #country-group {
     display: grid;
@@ -321,6 +325,10 @@ height: auto;
     #d-erasure .card-group {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    #d-country #country-group {
+        grid-template-columns: 1fr 1fr;
+    }
+
 
 }
 @media screen and (max-width: 600px) {
@@ -348,5 +356,8 @@ height: auto;
         flex-direction: row;
         height: 50px;
         width: 100%;
+    }
+    #d-country #country-group {
+        grid-template-columns: 1fr;
     }
 }

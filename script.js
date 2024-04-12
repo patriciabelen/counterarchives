@@ -2,6 +2,16 @@ $(document).ready(function(){
 
   $(".one").fadeIn(1500);
 
+
+  $( ".more" ).on( "click", function() {
+    $( ".moretext" ).slideToggle();
+    $(this).hide();
+  } );
+  $( ".less" ).on( "click", function() {
+    $( ".moretext" ).slideToggle();
+    $(".more").fadeIn();
+  } );
+
 /* ------ ERASURE ------  */
     $(".b-one").click(function(){
         $(".one").fadeIn(1500);
@@ -41,6 +51,14 @@ $(document).ready(function(){
 
       $(".circle-white").click(function(){
         $('body').css({'background-color': 'white'}); 
+      });
+
+      $(".circle-red").click(function(){
+        $('body').css({'background-color': 'red'}); 
+      });
+
+      $(".circle-yellow").click(function(){
+        $('body').css({'background-color': 'yellow'}); 
       });
 
 /* ------ MAGNiFICATION ------  */
