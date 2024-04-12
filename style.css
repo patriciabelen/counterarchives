@@ -252,13 +252,13 @@ nav {
 }
 
 .b-one, .b-two, .b-three, .b-four, 
-.circle-black, .circle-blue, .circle-white {
+.circle-black, .circle-blue, .circle-white, .circle-red, .circle-yellow {
     height: 1em;
     width: 1em;
     border: 1px solid var(--text-color-dark);
 }
 .b-one:hover, .b-two:hover, .b-three:hover, .b-four:hover, 
-.circle-black:hover, .circle-blue:hover, .circle-white:hover {
+.circle-black:hover, .circle-blue:hover, .circle-white:hover, .circle-red:hover, .circle-yellow:hover {
     cursor: pointer;
 }
 .active {
