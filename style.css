@@ -136,7 +136,7 @@ i {
 #about h2 {
     font-size: 1.7em;
     line-height: 1.4;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     color: var(--text-color-dark);
 }
 #about h2 a, .statement a {
@@ -150,13 +150,13 @@ i {
     padding: 2em 0;
     border-top: rgb(71, 69, 46) 1px solid;
 }
-.about-bullets ul {
-    
+.statement p {
+    margin-bottom: 2em;
 }
 .about-bullets li {
     font-size: 1.7em;
     line-height: 1.4;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     color: var(--text-color-dark);
     font-family: var(--serif);
     margin: 0 3em 1em 3em;
