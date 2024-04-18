@@ -452,6 +452,17 @@ width: 50%;
     #title {
         margin: 100px auto 50px auto;
     }
+    #about h2 {
+        font-size: 1.2em;
+    }
+    .statement p {
+        font-size: 1em;
+    }
+    .about-bullets li {
+        font-size: 1.2em;
+        line-height: 1.4;
+    }
+    
     nav {
         top: auto;
         bottom:0;
