@@ -258,7 +258,7 @@ width: 100%;
 #d-country #country-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5em;
+    column-gap: 5em;
 }
 .country-image {
     margin-bottom: 5em;
