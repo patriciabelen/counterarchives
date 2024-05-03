@@ -154,8 +154,11 @@ i {
 .statement p {
     margin-bottom: 2em;
 }
+.about-bullets {
+    width: 80%;
+}
 .about-bullets li {
-    font-size: 1.7em;
+    font-size: 1.6em;
     line-height: 1.4;
     margin-bottom: 1.5em;
     color: var(--text-color-dark);
@@ -414,7 +417,7 @@ width: 50%;
     .intro {
         width: 100%;
     }
-    #about h2 {
+    #about h2, .about-bullets {
         width: 100%;
     }
 }
