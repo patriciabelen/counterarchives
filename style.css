@@ -134,10 +134,11 @@ i {
     display: none;
 }
 #about h2 {
-    font-size: 1.7em;
+    font-size: 1.6em;
     line-height: 1.4;
     margin-bottom: 1.5em;
     color: var(--text-color-dark);
+    width: 80%;
 }
 #about h2 a, .statement a {
     color: var(--hilight);
@@ -413,7 +414,9 @@ width: 50%;
     .intro {
         width: 100%;
     }
-
+    #about h2 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1000px) {
