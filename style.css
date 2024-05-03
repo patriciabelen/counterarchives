@@ -441,13 +441,16 @@ width: 50%;
         grid-template-columns: 1fr 1fr;
     }
     header {
-        left: 5%;
+        left: 0;
         top: 0;
         width: 100%;
     }
     header h1 {
-        padding: 20px 0;
+        padding: 20px 0 20px 5%;
 
+    }
+    #home h2 {
+        font-size: 1.6em;
     }
     #title {
         margin: 100px auto 50px auto;
